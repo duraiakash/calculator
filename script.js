@@ -11,7 +11,7 @@ function getOutput() {
 }
 
 function printOutput(num) {
-    document.getElementById("output-value").innerText = num;
+    document.getElementById("output-value").innerText = num; 
 }
 
 let operators = document.getElementsByClassName("operator");
